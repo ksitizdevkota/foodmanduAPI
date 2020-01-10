@@ -1,13 +1,13 @@
 {
-  "name": "foodlandapi",
+  "name": "foodmanduapi",
   "version": "1.0.0",
-  "description": "Food land Api for Android Class project",
+  "description": "Food mandu Api for Android Class project",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --ignore ./public/uploads index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Suraj Machamasi",
+  "author": "Ksitiz Devkota",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

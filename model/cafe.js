@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let resturantSchema = new mongoose.Schema({
+let cafeSchema = new mongoose.Schema({
     name:{
         type:String,
         required:true,
@@ -10,7 +10,7 @@ let resturantSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    restype:{
+    cafetype:{
         type:String,
 
     },
@@ -20,4 +20,4 @@ let resturantSchema = new mongoose.Schema({
     }
 
 });
-module.exports = mongoose.model('resturant',resturantSchema);
+module.exports = mongoose.model('cafe',cafeSchema);

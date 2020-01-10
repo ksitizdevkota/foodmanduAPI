@@ -9,7 +9,7 @@ router.post('/create',(req,res,next)=>{
         price:req.body.price,
         detail:req.body.detail,
         item_category:req.body.item_category,
-        resturant:req.body.resturant,
+        cafe:req.body.cafe,
         image:req.body.image
     }).then((callbacks)=>{
         res.json( {status:"item created successfully",callback:callbacks});

@@ -20,7 +20,7 @@ const itemSchema = new mongoose.Schema({
     image:{
         type:String
     },
-    resturant:{
+    cafe:{
         type:String,
         required:true
     }

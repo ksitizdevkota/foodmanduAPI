@@ -4,8 +4,8 @@ const dotenv = require('dotenv').config();
 const cors = require('cors');
 const userRouter= require('./routes/user_routes');
 const uploadRouter = require('./routes/uploads');
-const resturantRouter = require('./routes/resturants');
-const itemsRouter = require('./routes/items');
+const cafeRouter = require('./routes/cafe');
+const itemsRouter = require('./routes/item');
 const router = express.Router();
 
 const app = express();
@@ -25,7 +25,7 @@ mongoose.connect(process.env.URL,{useNewUrlParser:true, useUnifiedTopology:true}
 
 app.use('/users',userRouter);
 app.use('/uploads',uploadRouter);
-app.use('/resturant',resturantRouter);
+app.use('/cafe',cafeRouter);
 app.use('/item',itemsRouter);
 
         
